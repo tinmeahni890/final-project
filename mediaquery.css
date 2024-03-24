@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+    
+    .brands-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .place_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .place:last-child {
+        grid-column: 1 / 3;
+    }
+
+}
